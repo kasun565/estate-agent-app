@@ -1,0 +1,22 @@
+/* Home styles are defined in App.css */
+
+.home {
+  min-height: calc(100vh - 60px);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}

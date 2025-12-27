@@ -1,0 +1,134 @@
+/* Checkout styles are defined in App.css */
+
+.checkout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.checkout h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.empty-cart p {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.empty-cart button {
+  padding: 1rem 2rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.empty-cart button:hover {
+  background-color: #2980b9;
+}
+
+.cart-items {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 150px 1fr auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ecf0f1;
+  align-items: center;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.item-details {
+  text-align: left;
+}
+
+.item-details h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.item-details p {
+  color: #7f8c8d;
+  margin: 0.25rem 0;
+}
+
+.item-details .cost {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #3498db;
+  margin-top: 0.5rem;
+}
+
+.remove-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: fit-content;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.checkout-summary {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: right;
+}
+
+.checkout-summary h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.confirm-btn {
+  padding: 1rem 3rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.confirm-btn:hover {
+  background-color: #229954;
+}
