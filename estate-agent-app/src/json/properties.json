@@ -1,35 +1,158 @@
 {
-	"properties": [
-        {
-            "id":"prop1",
-			"type":"House",
-            "bedrooms":3,
-			"price":750000,
-			"tenure":"Freehold",
-			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"/images/prop1pic1small.jpg",
-			"url":"properties/prop1.html",
-            "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
-            }
-        },
-		{
-            "id":"prop2",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"/images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
-            "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
-            }
-        }
-]}
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland.",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "picture": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "https://images.unsplash.com/photo-1599423300746-b62533397364",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+        "https://images.unsplash.com/photo-1600585152915-d208bec867a1"
+      ],
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat with modern open plan living.",
+      "location": "Crofton Road Orpington BR6",
+      "picture": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+        "https://images.unsplash.com/photo-1560448075-bb4d3b17f8c6",
+        "https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db"
+      ],
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "Apartment",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "description": "Modern one bedroom apartment ideal for first time buyers or investors, located close to transport links and local amenities.",
+      "location": "High Street, Bromley BR1",
+      "picture": [
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+      ],
+      "added": {
+        "month": "August",
+        "day": 22,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Bungalow",
+      "bedrooms": 2,
+      "price": 495000,
+      "tenure": "Freehold",
+      "description": "Well maintained two bedroom bungalow with spacious garden, driveway parking and excellent potential for extension.",
+      "location": "Chislehurst Road, Kent BR7",
+      "picture": [
+        "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+        "https://images.unsplash.com/photo-1600585152915-d208bec867a1",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1599423300746-b62533397364",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+      ],
+      "added": {
+        "month": "July",
+        "day": 5,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 925000,
+      "tenure": "Freehold",
+      "description": "Spacious four bedroom detached house offering luxury living with large garden, garage and modern interiors throughout.",
+      "location": "Farnborough Village BR6",
+      "picture": [
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
+      ],
+      "added": {
+        "month": "June",
+        "day": 18,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 225000,
+      "tenure": "Leasehold",
+      "description": "Compact and modern one bedroom flat ideal for city professionals, featuring open plan living and secure entry.",
+      "location": "Lewisham High Street SE13",
+      "picture": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+        "https://images.unsplash.com/photo-1560448075-bb4d3b17f8c6",
+        "https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+      ],
+      "added": {
+        "month": "May",
+        "day": 2,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "description": "Executive five bedroom family home offering premium finishes, multiple reception rooms and landscaped gardens.",
+      "location": "Sevenoaks Road, Kent TN13",
+      "picture": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "https://images.unsplash.com/photo-1599423300746-b62533397364",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+      ],
+      "added": {
+        "month": "April",
+        "day": 10,
+        "year": 2022
+      }
+    }
+  ]
+}
